@@ -54,15 +54,12 @@ public class App
         pasta.add("tomatoes");
         pasta.add("garlic");
         pasta.add("basil");
+
         Recipe recipe2 = new Recipe("pasta", pasta);
 
-        //Set<Recipe> r = u.getRecipes();
         Set<Recipe> r = user.getRecipes();
         r.add(recipe1);
         r.add(recipe2);
-        //user.setRecipes(r);
-        //createRecipe(factory,session);
-
 
         session.persist(recipe1);
         session.persist(recipe2);
