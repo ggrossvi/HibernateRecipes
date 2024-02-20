@@ -1,1 +1,1 @@
-Using Hibernate we map a class to a database, connect and write to the database.  
+Using Hibernate, classes are mapped to a database, a connection is established and the instance is commited to the database.  
